@@ -49,7 +49,7 @@ function App() {
         <button onClick={handleGenerateNumbers}>Generate New Numbers</button>
       </div>
       {isCorrect !== null && (
-        <p>{isCorrect ? 'Correct!' : 'Incorrect! Try again.'}</p>
+        <p>{isCorrect ? 'Incorrect! Try again.' : 'Incorrect! Try again.'}</p>
       )}
     </div>
   );
